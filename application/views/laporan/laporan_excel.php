@@ -15,7 +15,7 @@
 		<?php $no=0; $gtotal=0; foreach($pembelian as $row) { ?>
 			<tr>
 				<td><?=$no=$no+1?></td>
-				<td><?=$row->Tanggal?></td>
+				<td><?=$row->Date?></td>
 				<td><?=$row->no_faktur?></td>
 				<td><?=nominal($row->total)?></td>
 				<?php $gtotal=$gtotal+$row->total ?>
